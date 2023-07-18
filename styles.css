@@ -1,1 +1,29 @@
 /* STYLEZZZZ */
+
+/* Variables */
+:root {
+  --font-sans: "Inter", Helvetica, sans-serif;
+  --font-size: 18px;
+  --color-green: #27ae60;
+}
+/* Styles */
+body {
+  font-family: var(--font-sans);
+  font-size: var(--font-size);
+  line-height: 1.5;
+}
+p {
+  color: #000;
+  font-weight: 400;
+}
+em {
+  color: #828282;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover{
+  color: var(--color-green);
+}
