@@ -112,6 +112,19 @@ h4 {
 }
 
 /* More NAV styles to come! */
+.main-menu .navigation > li.menu-item-has-children > a {
+  padding-right: 16px !important;
+}
+.main-menu .navigation > li.menu-item-has-children > a:before {
+  font-family: flaticon;
+  content: "\f104";
+  position: absolute;
+  right: 0px;
+  font-size: 12px;
+  line-height: 34px;
+  font-weight: 800;
+}
+
 
 /* Title Banner Section */
 .title-banner {
