@@ -124,7 +124,26 @@ h4 {
   line-height: 34px;
   font-weight: 800;
 }
+.main-menu .navigation > li > ul {
+  position: absolute;
+  left: -30px;
+  top: 70px; 
+  min-width: 150px;
+  z-index: 100;
+  opacity: 0;
+  list-style: none;
+  visibility: hidden;
+  display: block;
+  transition: all var(--transition-dur) ease;
+  -moz-transition: all var(--transition-dur) ease;
+  -webkit-transition: all var(--transition-dur) ease;
+  -ms-transition: all var(--transition-dur) ease;
+  -o-transition: all var(--transition-dur) ease;
+  padding: 20px 15px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 
+}
 
 /* Title Banner Section */
 .title-banner {
