@@ -151,6 +151,80 @@ h4 {
 .main-menu .navigation > li > ul > li:last-child {
   border-bottom: none;
 }
+.main-menu .navigation > li > ul > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 18px;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: var(--color-dark);
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+.main-menu .navigation > li > ul > li:hover > a {
+  color: var(--color-yellow);
+  padding-left: 10px;
+}
+.main-menu .navigation > li > ul > li.menu-item-has-children > a:after {
+  font-family: flaticon;
+  content: "\f105";
+  position: absolute;
+  right: 15px;
+  top: 14px;
+  width: 10px;
+  height: 20px;
+  display: block;
+  color: var(--color-dark);
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  z-index: 5;
+  font-weight: 800;
+}
+.main-menu .navigation > li > ul > li.menu-item-has-children:hover > a:after {
+  color: var(--color-dark);
+}
+.main-menu .navigation > li > ul > li > ul {
+  position: absolute;
+  left: 120%;
+  top: 0%;
+  min-width: 150px;
+  z-index: 100;
+  list-style: none;
+  opacity: 0;
+  display: block;
+  padding: 20px 15px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all var(--transition-dur) ease;
+  -moz-transition: all var(--transition-dur) ease;
+  -webkit-transition: all var(--transition-dur) ease;
+  -ms-transition: all var(--transition-dur) ease;
+  -o-transition: all var(--transition-dur) ease;
+}
+
+/* More Nav Styles to come */
+
+.main-menu .navigation > li.menu-item-has-children:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  left: 0%;
+  border-top: 0px !important;
+  transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+
+}
+
 
 /* Title Banner Section */
 .title-banner {
