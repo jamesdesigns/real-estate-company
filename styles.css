@@ -142,7 +142,14 @@ h4 {
   padding: 20px 15px;
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-
+}
+.main-menu .navigation > li > ul > li {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #f9f9f9;
+}
+.main-menu .navigation > li > ul > li:last-child {
+  border-bottom: none;
 }
 
 /* Title Banner Section */
