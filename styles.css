@@ -256,6 +256,27 @@ h4 {
   display: block;
   padding: 10px 18px;
   line-height: 24px;
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: var(--color-dark);
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+.main-menu .navigation > li > ul > li > ul > li:hover > a {
+
+}
+
+.main-menu .navigation > li.menu-item-has-children > ul {
+  transform: rotateZ(8deg);
+  -moz-transform: rotateZ(8deg);
+  -webkit-transform: rotateZ(8deg);
+  -ms-transform: rotateZ(8deg);
+  -o-transform: rotateZ(8deg);
 }
 
 .main-menu .navigation > li.menu-item-has-children:hover > ul {
