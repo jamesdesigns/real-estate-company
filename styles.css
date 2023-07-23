@@ -482,6 +482,12 @@ h4 {
   position: absolute;
   right: 0px;
   top: 0px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 44px;
+  color: var(--color-dark);
 }
 
 
