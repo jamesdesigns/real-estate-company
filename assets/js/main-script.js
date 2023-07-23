@@ -2,7 +2,7 @@
 "use strict";
 
 // mobile nav hide / show
-if($('.mobile-memu').length){
+if($('.mobile-menu').length){
 
   var mobileMenuContent = $('#top-navigation .navigation').html();
 
