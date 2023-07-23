@@ -285,11 +285,19 @@ h4 {
   display: block;
   left: 0%;
   border-top: 0px !important;
-  transform: rotateX(0deg);
-  -moz-transform: rotateX(0deg);
-  -webkit-transform: rotateX(0deg);
-  -ms-transform: rotateX(0deg);
-  -o-transform: rotateX(0deg);
+  transform: rotateZ(0deg);
+  -moz-transform: rotateZ(0deg);
+  -webkit-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  -o-transform: rotateZ(0deg);
+}
+
+.main-menu .navigation li > ul > li.menu-item-has-children > ul {
+  transform: rotateZ(8deg);
+  -moz-transform: rotateZ(8deg);
+  -webkit-transform: rotateZ(8deg);
+  -ms-transform: rotateZ(8deg);
+  -o-transform: rotateZ(8deg);
 }
 .main-menu .navigation li > ul > li.menu-item-has-children:hover > ul {
   visibility: visible;
