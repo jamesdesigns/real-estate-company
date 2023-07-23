@@ -6,6 +6,7 @@
   --font-size: 18px;
   --color-green: #27ae60;
   --color-yellow: #ffda00;
+  --color-red: #ef1f22;
   --color-dark: #333;
   --color-light: #f2f2f2;
   --transition-dur: 0.3s;
@@ -475,7 +476,12 @@ h4 {
 
 .mobile-menu .navigation li.current > a,
 .mobile-menu .navigation li > a:hover {
-  color: #ef1f22;
+  color: var(--color-red);
+}
+.mobile-menu .navigation li.menu-item-has-children .dropdown-btn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }
 
 
