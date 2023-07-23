@@ -326,9 +326,9 @@ h4 {
   padding-right: 30px;
   height: 100%;
   padding-right: 30px;
-  /* opacity: 0;
-  visibility: hidden; */
-  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 99999;
 }
 .mobile-menu-visible {
   overflow: hidden;
@@ -378,12 +378,12 @@ h4 {
   width: 100%;
   height: 100%;
   max-height: 100%;
-  overflow-y: 100%;
+  overflow-y: auto;
   background: #fff;
   padding: 0;
   z-index: 5;
-  /* opacity: 0;
-  visibility: hidden; */
+  opacity: 0;
+  visibility: hidden;
   border-radius: 0;
   transform: translateX(101%);
   -moz-transform: translateX(101%);
@@ -392,7 +392,7 @@ h4 {
   -o-transform: translateX(101%);
 }
 
-.mobile-memu-visible .mobile-menu .menu-box {
+.mobile-menu-visible .mobile-menu .menu-box {
   opacity: 1;
   visibility: visible;
   transition: all 0.7s ease;
@@ -429,7 +429,34 @@ h4 {
   -o-transform: translateY(-50px);
 }
 
+.mobile-menu-visible .mobile-menu .close-btn {
+  transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+}
+.mobile-menu .close-btn:hover {
+  opacity: 0.5;
+}
 
+.mobile-menu .navigation {
+  position: relative;
+  padding-top: 50px;
+  display: block;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.mobile-menu .navigation li {
+  position: relative;
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.mobile-menu .navigation li > ul > li:last-child {
+  border-bottom: none;
+}
+.mobile-menu .navigation li > ul > li:first-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 
 

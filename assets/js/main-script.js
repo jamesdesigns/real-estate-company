@@ -2,13 +2,13 @@
 "use strict";
 
 // mobile nav hide / show
-if($('.mobile-memu').length) {
+if($('.mobile-memu').length){
 
-  var mobileMemnuContent = $('#top-navigation .navigation').html();
+  var mobileMenuContent = $('#top-navigation .navigation').html();
 
-  $('.mobile-menu .navigation').append(mobileMemnuContent);
+  $('.mobile-menu .navigation').append(mobileMenuContent);
 
-  $('.sticky-header .navigation').append(mobileMemnuContent);
+  $('.sticky-header .navigation').append(mobileMenuContent);
 
   $('.mobile-menu .close-btn').on('click', function(){
     $('body').removeClass('mobile-menu-visible');
