@@ -318,6 +318,26 @@ h4 {
   -o-transition: all 300ms ease;  
 }
 
+.main-menu > ul li.menu-item-has-children .dropdown-btn {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  line-height: 28px;
+  border: 1px solid #fff;
+  background-size: 20px;
+  cursor: pointer;
+  z-index: 5;
+  display: none;
+}
+
+.main-menu > ul li.menu-item-has-children .dropdown-btn i.flaticon-arrow-down-sign-to-navigate::before {
+  font-size: 100px;
+}
+
 .navbar-open {
   position: relative;
   display: none;
@@ -524,7 +544,17 @@ h4 {
   display: none;
 }
 
-
+@media only screen and (max-width: 768px) {
+  #top-navigation .top-menu {
+    display: none !important;
+    visibility: hidden;
+  }
+  .navbar-open {
+    opacity: 1;
+    visibility: visible;
+    display: inline-block;
+  }
+}
 
 /* Title Banner Section */
 .title-banner {
