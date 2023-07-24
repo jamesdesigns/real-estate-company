@@ -318,6 +318,25 @@ h4 {
   -o-transition: all 300ms ease;  
 }
 
+.navbar-open {
+  position: relative;
+  display: none;
+  background: unset;
+  padding: 0;
+  border: none;
+  position: absolute;
+  right: 32px;
+  top: 0px;
+}
+.navbar-open .flaticon {
+  color: #fff;
+  display: block;
+  font-size: 30px;
+  line-height: 40px;
+  cursor: pointer;
+  padding: 18px 0px;
+}
+
 .mobile-menu {
   position: fixed;
   right: 0;
@@ -488,7 +507,23 @@ h4 {
   font-size: 16px;
   line-height: 44px;
   color: var(--color-dark);
+  cursor: pointer;
+  z-index: 5;
 }
+.mobile-menu .navigation li.menu-item-has-children .dropdown-btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 1px;
+  height: 24px;
+  border-left: 1px solid rgba(0,0,0,0.1);
+}
+.mobile-menu .navigation li > ul,
+.mobile-menu .navigation li > ul > li > ul {
+  display: none;
+}
+
 
 
 /* Title Banner Section */
