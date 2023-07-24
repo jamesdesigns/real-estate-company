@@ -567,3 +567,18 @@ h4 {
 }
 
 /* Subscribe Bar */
+.subscribe-bar {
+  background-color: #111;
+  padding: 30px 0 10px;
+}
+
+.subscribe-bar p {
+  color: #fff;
+  margin-bottom: 0;
+}
+.subscribe-bar input,
+.subscribe-bar input btn {
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+}
