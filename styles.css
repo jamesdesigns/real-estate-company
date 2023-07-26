@@ -11,6 +11,8 @@
   --color-light: #f2f2f2;
   --transition-dur: 0.3s;
 }
+/* Typography Styles */
+
 /* Styles */
 body {
   font-family: var(--font-sans);
@@ -53,6 +55,35 @@ h3 {
 h4 {
   font-size: 1.2rem;
   font-weight: 700;
+}
+
+/* Button Styles */
+.btn {
+  padding: 20px 30px;
+  display: inline-block;
+  border: none;
+  transition: var(--transition-dur);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.btn:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.btn.btn-primary {
+  color: #111;
+  background-color: #f2c94c;
+  padding: 20px 50px;
+}
+.btn.btn-secondary {
+  color: #fff;
+  background-color: rgba(51,51,51,0.1);
+}
+.btn.btn-invert {
+  color: #fff;
+  padding: 12px 44px;
+  background-color: rgba(255,25,255, 0.2);
 }
 
 /* TOP NAV */
