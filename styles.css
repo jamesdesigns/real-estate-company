@@ -643,3 +643,15 @@ article.post {
   color: var(--color-red);
   margin-bottom: 8px;
 }
+.blog .post h2 a:hover  {
+  color: var(--color-green);
+}
+.blog .post p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #828282;
+  line-height: 1.5;
+}
+.blog .post .read-more {
+  color: #f50057;
+}
