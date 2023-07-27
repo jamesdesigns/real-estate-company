@@ -7,6 +7,7 @@
   --color-green: #27ae60;
   --color-yellow: #ffda00;
   --color-red: #ef1f22;
+  --color-pink: #f50057;
   --color-dark: #333;
   --color-light: #f2f2f2;
   --transition-dur: 0.3s;
@@ -640,7 +641,7 @@ article.post {
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
-  color: var(--color-red);
+  color: var(--color-pink);
   margin-bottom: 8px;
 }
 .blog .post h2 a:hover  {
@@ -653,5 +654,10 @@ article.post {
   line-height: 1.5;
 }
 .blog .post .read-more {
-  color: #f50057;
+  color: var(--color-pink);
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 12px;
+  transition: var(--transition-dur);
 }
