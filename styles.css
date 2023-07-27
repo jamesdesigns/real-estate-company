@@ -661,3 +661,8 @@ article.post {
   margin-top: 12px;
   transition: var(--transition-dur);
 }
+
+.blog .post a.read-more:hover {
+  color: var(--color-green);
+  padding-left: 5px;
+}
