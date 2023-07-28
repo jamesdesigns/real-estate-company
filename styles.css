@@ -644,6 +644,12 @@ article.post {
   color: var(--color-pink);
   margin-bottom: 8px;
 }
+
+.blog .post h2 a {
+  font-size: 2rem;
+  color: #111;
+}
+
 .blog .post h2 a:hover  {
   color: var(--color-green);
 }
