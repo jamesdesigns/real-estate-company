@@ -715,3 +715,5 @@ article.post {
   font-weight: 500;
   color: var(--color-pink);
 }
+
+.sub-title { margin: 0;}
