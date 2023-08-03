@@ -830,3 +830,13 @@ article.post {
   .section-call-to-action:hover .overlay-image  {
     transform: rotate(21deg);
   }
+
+  .section-call-to-action h2,
+  .section-call-to-action .sub-title,
+  .section-call-to-action p {
+    color: #fff;
+  }
+
+  .section-call-to-action .sub-title {
+    color: var(--color-yellow);
+  }
