@@ -810,19 +810,23 @@ article.post {
     transform: rotate(358deg);
   }
 
-  .section-call-to-action .overlay-img img {
+  .section-call-to-action .overlay-image img {
     width: 100%;
-    heigh: auto;
+    height: auto;
     opacity: 0.5;
   }
 
-  .section-call-to-action .overlay-img  {
+  .section-call-to-action .overlay-image  {
     position: absolute;
-    transform: rotate(180deg);
+    transform: rotate(18deg);
     border-radius: 20px;
     overflow: hidden;
     width: 30%;
     left: -4%;
     bottom: -50%;
     transition: var(--transition-dur);
+  }
+
+  .section-call-to-action:hover .overlay-image  {
+    transform: rotate(21deg);
   }
