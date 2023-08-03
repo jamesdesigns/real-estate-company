@@ -809,3 +809,20 @@ article.post {
     background: linear-gradient(100deg, #f50057 0%, #bb6bd9 100%);
     transform: rotate(358deg);
   }
+
+  .section-call-to-action .overlay-img img {
+    width: 100%;
+    heigh: auto;
+    opacity: 0.5;
+  }
+
+  .section-call-to-action .overlay-img  {
+    position: absolute;
+    transform: rotate(180deg);
+    border-radius: 20px;
+    overflow: hidden;
+    width: 30%;
+    left: -4%;
+    bottom: -50%;
+    transition: var(--transition-dur);
+  }
