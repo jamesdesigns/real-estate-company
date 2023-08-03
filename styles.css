@@ -786,7 +786,7 @@ article.post {
     margin: 20px 0;
   }
 
-  .section-call-to-action .overlay-bg {
+  .section-call-to-action .underlay-bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -795,4 +795,17 @@ article.post {
     z-index: -2;
     border-radius: 40px;
     background-color: #f2f2f2;
+  }
+
+  .section-call-to-action .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 40px;
+    overflow: hidden;
+    background: linear-gradient(100deg, #f50057 0%, #bb6bd9 100%);
+    transform: rotate(358deg);
   }
