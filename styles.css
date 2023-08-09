@@ -741,6 +741,7 @@ article.post {
   overflow: hidden;
   min-height: 335px;
   padding: 35px 30px 100px;
+  margin-bottom: 20px;
   border-radius: 20px;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.15);
 }
