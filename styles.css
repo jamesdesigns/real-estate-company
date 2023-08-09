@@ -631,7 +631,7 @@ input[type="text"] {
 /* Subscribe Bar */
 .subscribe-bar {
   background-color: #111;
-  padding: 30px 0 10px;
+  padding: 30px 0;
 }
 
 .subscribe-bar p {
@@ -643,6 +643,11 @@ input[type="text"] {
   width: 100%;
   overflow: hidden;
   display: inline-block;
+}
+
+.subscribe-bar .container .row {
+  display: flex;
+  align-items: center;
 }
 
 /* Content Section */
