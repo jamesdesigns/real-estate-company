@@ -65,6 +65,15 @@ h4 {
   text-align: center;
   line-height: 1.5;
 }
+.testimonial cite {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+cite span {
+  color: #828282;
+}
 .spacer { margin: 75px 0; }
 
 /* Button Styles */
