@@ -101,7 +101,8 @@ cite span {
 }
 .btn.btn-invert {
   color: #fff;
-  padding: 12px 44px;
+  width: 100%;
+  padding: 12px;
   background-color: rgba(255,255,255, 0.2);
 }
 .btn.btn-invert:hover {
