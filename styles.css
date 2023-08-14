@@ -639,6 +639,12 @@ input[type="text"] {
   color: #fff;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 576px) {
+  .subscribe-bar p {
+    margin-bottom: 20px;
+  }
+}
 .subscribe-bar input,
 .subscribe-bar input btn {
   width: 100%;
