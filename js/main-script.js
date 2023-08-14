@@ -8,7 +8,7 @@ if($('.main-menu li.menu-item-has-children ul').length) {
 
 // Dropdown button
 $('.main-menu li.menu-item-has-children .dropdown-btn').on('click', function() {
-  $(this).prev('ul').slideToggle(500)
+  $(this).prev('ul').slideToggle(500);
 })
 
 // Disable dropdown parent link
@@ -46,9 +46,6 @@ if($('.mobile-menu').length){
     function() {
       $('body').removeClass('mobile-menu-visible');
     })
-
-
-
 
 }
 

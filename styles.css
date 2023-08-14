@@ -232,8 +232,6 @@ input[type="text"] {
   padding-left: 10px;
 }
 .main-menu .navigation > li > ul > li.menu-item-has-children > a:after {
-  /* font-family: flaticon;
-  content: "\f105"; */
   position: absolute;
   right: 15px;
   top: 14px;
@@ -329,10 +327,6 @@ input[type="text"] {
   -webkit-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
-}
-
-.main-menu .navigation > li > ul > li > ul > li:hover > a {
-
 }
 
 .main-menu .navigation > li.menu-item-has-children > ul {
@@ -651,11 +645,6 @@ input[type="text"] {
   overflow: hidden;
   display: inline-block;
 }
-
-/* .subscribe-bar .container .row {
-  display: flex;
-  align-items: center;
-} */
 
 .flex-vertical-center {
   display: flex;
